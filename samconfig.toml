@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-lambda-authenticator-sample"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-18vcz89umgoxk"
+s3_prefix = "sam-lambda-authenticator-sample"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
